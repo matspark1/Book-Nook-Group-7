@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The BookNook</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <nav>
+        <div class="logo">
+          <img src="images/books-stack-of-three.png" alt="logo" />
+          <p>The BookNook</p>
+        </div>
+        <input class="search-bar" type="text" placeholder="Search..." />
+        <div class="links show">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#books">Books</a>
+          <a href="#blog">Blog</a>
+          <div class="link-picture">
+            <a href="#account">Account</a>
+            <img src="images/user.png" />
+          </div>
+          <div class="link-picture">
+            <a href="#cart">Cart</a>
+            <img src="images/shopping-cart.png" />
+          </div>
+        </div>
+        <div class="menu-mobile">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </nav>
+      <div id="app-inject"></div>
+      <div class="footer">
+        <div class="copyright">
+          <p>Copyright 2022, The BookNook</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#books">Books</a>
+          <a href="#blog">Blog</a>
+        </div>
+        <div class="footer-socials">
+          <img class="facebook" src="images/logos/white/facebook_w.png" />
+          <img class="instagram" src="images/logos/white/instagram_w.png" />
+          <img class="twitter" src="images/logos/white/twitter_w.png" />
+        </div>
+      </div>
+    </div>
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script type="module" src="app/app.js"></script>
+    <script type="module" src="app/model.js"></script>
+  </body>
+</html>

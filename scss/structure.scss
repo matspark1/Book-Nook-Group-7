@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: $SegoeRegular;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: "Segoe-UI-Bold";
+  src: url(../css/fonts/segoeuib.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Segoe-UI-Regular";
+  src: url(../css/fonts/segoeui.ttf) format("truetype");
+}
