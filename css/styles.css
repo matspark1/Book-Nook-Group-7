@@ -882,6 +882,9 @@ nav .menu-mobile .bar {
     margin-top: 0px;
     row-gap: 110px;
   }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box {
+    margin-top: -20px;
+  }
   .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text-bookset {
     width: 101.5px;
     margin-left: 32.5px;
@@ -924,6 +927,9 @@ nav .menu-mobile .bar {
     flex-direction: column;
     margin-top: 0px;
     row-gap: 74px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .book-box {
+    margin-top: -20px;
   }
   .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text-bookset {
     width: 101.5px;
