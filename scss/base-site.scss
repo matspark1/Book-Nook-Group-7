@@ -161,6 +161,9 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
+  html {
+    overflow-x: hidden;
+  }
   .site-wrapper {
     nav {
       height: 93px;
@@ -180,9 +183,9 @@ nav {
         width: 100vw;
         justify-content: space-evenly;
         img {
-            width: 36px;
-            height: 36px;
-          }
+          width: 36px;
+          height: 36px;
+        }
       }
       .menu-mobile {
         display: flex;
@@ -222,10 +225,16 @@ nav {
         }
       }
     }
+    .mobile-nav {
+      height: calc(100vh - 93px);
+    }
   }
 }
 
 @media screen and (max-width: 390px) {
+  html {
+    overflow-x: hidden;
+  }
   .site-wrapper {
     nav {
       height: 55px;
@@ -244,6 +253,7 @@ nav {
       }
       .links {
         width: 100vw;
+
         justify-content: space-evenly;
       }
       .menu-mobile {
@@ -300,6 +310,6 @@ nav {
   }
   .mobile-nav {
     position: absolute;
-    top: 55px;
+    height: calc(100vh - 55px);
   }
 }

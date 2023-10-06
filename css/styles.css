@@ -186,6 +186,9 @@ nav .menu-mobile .bar {
   }
 }
 @media screen and (max-width: 768px) {
+  html {
+    overflow-x: hidden;
+  }
   .site-wrapper nav {
     height: 93px;
   }
@@ -246,8 +249,14 @@ nav .menu-mobile .bar {
     width: 25px;
     height: 25px;
   }
+  .site-wrapper .mobile-nav {
+    height: calc(100vh - 93px);
+  }
 }
 @media screen and (max-width: 390px) {
+  html {
+    overflow-x: hidden;
+  }
   .site-wrapper nav {
     height: 55px;
   }
@@ -317,7 +326,176 @@ nav .menu-mobile .bar {
   }
   .mobile-nav {
     position: absolute;
-    top: 55px;
+    height: calc(100vh - 55px);
+  }
+}
+.home-hero {
+  background-image: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url(../images/home-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 78.125%;
+  height: 530px;
+  margin: 158px auto;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.home-hero .home-hero-text {
+  margin-right: 240px;
+}
+.home-hero .home-hero-text h1 {
+  font-family: "Segoe-UI-Bold", sans-serif;
+  font-size: 32px;
+}
+
+.home-books-wrapper {
+  max-width: 100%;
+  margin-bottom: 188px;
+  margin-top: 40px;
+}
+
+.home-books-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 80px;
+}
+.home-books-boxes .home-book-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 413px;
+}
+.home-books-boxes .home-book-box img {
+  width: 306px;
+  height: 491px;
+  object-fit: cover;
+}
+.home-books-boxes .home-book-box h3 {
+  font-family: "Segoe-UI-Bold", sans-serif;
+  font-size: 32px;
+  margin-top: 46px;
+}
+.home-books-boxes .home-book-box a {
+  padding: 24px 62px;
+  border: 1px solid #000;
+  margin-top: 46px;
+  text-decoration: none;
+  color: #000;
+}
+.home-books-boxes .home-book-box p {
+  margin-top: 49px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .site-wrapper .home-hero {
+    background: url(../images/home-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 273px 181px;
+    background-color: #587c83;
+    background-position: 81px center;
+    height: 329px;
+    width: 552px;
+    margin-top: 88px;
+    margin-bottom: 46px;
+  }
+  .site-wrapper .home-hero .home-hero-text {
+    margin-right: 54px;
+    margin-bottom: 56px;
+  }
+  .site-wrapper .home-hero .home-hero-text h1 {
+    font-size: 12px;
+  }
+  .site-wrapper .home-hero .home-hero-text p {
+    font-size: 7px;
+  }
+  .site-wrapper .home-books-wrapper {
+    max-width: 100%;
+    margin-bottom: 100px;
+    margin-top: 66px;
+  }
+  .site-wrapper .home-books-boxes {
+    justify-content: center;
+    row-gap: 140px;
+  }
+  .site-wrapper .home-books-boxes .home-book-box {
+    width: 413px;
+  }
+  .site-wrapper .home-books-boxes .home-book-box img {
+    width: 185px;
+    height: 282px;
+  }
+  .site-wrapper .home-books-boxes .home-book-box h3 {
+    font-size: 11px;
+    margin-top: 31px;
+  }
+  .site-wrapper .home-books-boxes .home-book-box a {
+    padding: 17px 55px;
+    margin-top: 31px;
+    font-size: 12px;
+  }
+  .site-wrapper .home-books-boxes .home-book-box p {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .site-wrapper .home-hero {
+    background: url(../images/home-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 116px 77px;
+    background-color: #587c83;
+    background-position: 29px center;
+    height: 193px;
+    width: 316px;
+    margin: 55px auto;
+  }
+  .site-wrapper .home-hero .home-hero-text {
+    margin-right: 46px;
+    margin-bottom: 34px;
+  }
+  .site-wrapper .home-hero .home-hero-text h1 {
+    font-size: 6px;
+  }
+  .site-wrapper .home-hero .home-hero-text p {
+    font-size: 6px;
+  }
+  .site-wrapper .home-books-wrapper {
+    max-width: 100%;
+    margin-bottom: 68px;
+    margin-top: 61px;
+  }
+  .site-wrapper .home-books-boxes {
+    justify-content: center;
+    row-gap: 100px;
+  }
+  .site-wrapper .home-books-boxes .home-book-box {
+    width: 413px;
+  }
+  .site-wrapper .home-books-boxes .home-book-box img {
+    width: 66px;
+    height: 99px;
+  }
+  .site-wrapper .home-books-boxes .home-book-box h3 {
+    font-size: 6px;
+    margin-top: 6px;
+  }
+  .site-wrapper .home-books-boxes .home-book-box a {
+    padding: 17px 55px;
+    margin-top: 7px;
+    font-size: 6px;
+  }
+  .site-wrapper .home-books-boxes .home-book-box p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 6px;
   }
 }
 
