@@ -1,0 +1,141 @@
+@mixin bookbox {
+  .book-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 223px;
+      height: 246px;
+      object-fit: cover;
+    }
+    .books-img {
+      width: 206px;
+      height: 311px;
+    }
+    .books-img-space {
+      width: 238px;
+      height: 238px;
+    }
+    .book-box-text-bookset {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 280px;
+      margin-left: 54px;
+      margin-top: 60px;
+      h3 {
+        font-family: $SegoeBold;
+        font-size: 16px;
+        margin-top: 40px;
+        margin-right: auto;
+      }
+      a {
+        margin-right: auto;
+        font-size: 16px;
+        padding: 24px 62px;
+        border: 1px solid #000;
+        margin-top: 35px;
+        text-decoration: none;
+        color: #000;
+      }
+    }
+    .book-box-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 280px;
+      margin-left: 54px;
+      h3 {
+        font-family: $SegoeBold;
+        font-size: 16px;
+        margin-top: 40px;
+        margin-right: auto;
+      }
+      a {
+        margin-right: auto;
+        font-size: 16px;
+        padding: 24px 62px;
+        border: 1px solid #000;
+        margin-top: 35px;
+        text-decoration: none;
+        color: #000;
+      }
+    }
+  }
+}
+
+@mixin bookbox-768px {
+  .book-box {
+    .book-box-text-bookset {
+      width: 183px;
+      margin-left: 27.5px;
+      p {
+        font-size: 11px;
+      }
+      h3 {
+        font-size: 12px;
+        margin-top: 16px;
+      }
+      a {
+        font-size: 11px;
+        padding: 17px 55px;
+        margin-top: 16px;
+      }
+    }
+    .book-box-text {
+      width: 183px;
+      margin-left: 27.5px;
+      p {
+        font-size: 11px;
+      }
+      h3 {
+        font-size: 12px;
+        margin-top: 16px;
+      }
+      a {
+        font-size: 11px;
+        padding: 17px 55px;
+        margin-top: 16px;
+      }
+    }
+  }
+}
+
+@mixin bookbox-390px {
+  .book-box {
+    .book-box-text-bookset {
+      width: 101.5px;
+      margin-left: 32.5px;
+      margin-top: 10px;
+      p {
+        font-size: 6px;
+      }
+      h3 {
+        font-size: 6px;
+        margin-top: 6px;
+      }
+      a {
+        font-size: 6px;
+        padding: 7.7px 17.3px;
+        margin-top: 2px;
+      }
+    }
+    .book-box-text {
+      width: 101.5px;
+      margin-left: 54px;
+      margin-top: 70px;
+      p {
+        font-size: 6px;
+      }
+      h3 {
+        font-size: 6px;
+        margin-top: 10px;
+      }
+      a {
+        font-size: 6px;
+        padding: 7.7px 17.3px;
+        margin-top: 6px;
+      }
+    }
+  }
+}

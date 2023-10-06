@@ -1,0 +1,114 @@
+.books-wrapper {
+  margin-top: 180px;
+  .books-boxes-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 350px;
+    h1 {
+      font-family: $SegoeBold;
+      font-size: 26px;
+      margin-left: 77px;
+    }
+    .book-boxes-bookset {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 72px;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-top: 65px;
+      @include bookbox;
+    }
+    .book-boxes {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 72px;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-top: 108px;
+      @include bookbox;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .site-wrapper {
+        .books-wrapper{
+            margin-top: 90px;
+            .books-boxes-wrapper{
+                margin-bottom: 133px;
+                h1{
+                    font-size: 12px;
+                    margin-left: 53px;
+                }
+                .book-boxes-bookset{
+                    flex-direction: column;
+                    margin-top: 44.5px;
+                    row-gap: 63.5px;
+                    @include bookbox-768px;
+                    img{
+                        width: 118px;
+                        height: 130px;
+                    }
+                }
+                .book-boxes{
+                    flex-direction: column;
+                    margin-top: 69px;
+                    row-gap: 63.5px;
+                    @include bookbox-768px;
+                    .books-img{
+                        width: 110px;
+                        height: 166px;
+                    }
+                    .books-img-space {
+                        width: 125px;
+                        height: 125px;
+                        margin-top: -50px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    .site-wrapper {
+        .books-wrapper{
+            margin-top: 49px;
+            .books-boxes-wrapper{
+                margin-bottom: 82px;
+                h1{
+                    font-size: 6px;
+                    margin-left: 33px;
+                }
+                .book-boxes-bookset{
+                    flex-direction: column;
+                    margin-top: 0px;
+                    row-gap: 110px;
+                    @include bookbox-390px;
+                    img{
+                        width: 68px;
+                        height: 75px;
+                    }
+                }
+                .book-boxes{
+                    flex-direction: column;
+                    margin-top: 0px;
+                    row-gap: 74px;
+                    @include bookbox-390px;
+                    .books-img{
+                        width: 53px;
+                        height: 80px;
+                    }
+                    .books-img-space {
+                        width: 71px;
+                        height: 71px;
+                        margin-top: 60px;
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -611,5 +611,363 @@ nav .menu-mobile .bar {
     margin-top: 18px;
   }
 }
+.books-wrapper {
+  margin-top: 180px;
+}
+.books-wrapper .books-boxes-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 350px;
+}
+.books-wrapper .books-boxes-wrapper h1 {
+  font-family: "Segoe-UI-Bold", sans-serif;
+  font-size: 26px;
+  margin-left: 77px;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes-bookset {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 72px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 65px;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box img {
+  width: 223px;
+  height: 246px;
+  object-fit: cover;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .books-img {
+  width: 206px;
+  height: 311px;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .books-img-space {
+  width: 238px;
+  height: 238px;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text-bookset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  margin-left: 54px;
+  margin-top: 60px;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text-bookset h3 {
+  font-family: "Segoe-UI-Bold", sans-serif;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-right: auto;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text-bookset a {
+  margin-right: auto;
+  font-size: 16px;
+  padding: 24px 62px;
+  border: 1px solid #000;
+  margin-top: 35px;
+  text-decoration: none;
+  color: #000;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  margin-left: 54px;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text h3 {
+  font-family: "Segoe-UI-Bold", sans-serif;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-right: auto;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text a {
+  margin-right: auto;
+  font-size: 16px;
+  padding: 24px 62px;
+  border: 1px solid #000;
+  margin-top: 35px;
+  text-decoration: none;
+  color: #000;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 72px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 108px;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes .book-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes .book-box img {
+  width: 223px;
+  height: 246px;
+  object-fit: cover;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes .book-box .books-img {
+  width: 206px;
+  height: 311px;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes .book-box .books-img-space {
+  width: 238px;
+  height: 238px;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text-bookset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  margin-left: 54px;
+  margin-top: 60px;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text-bookset h3 {
+  font-family: "Segoe-UI-Bold", sans-serif;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-right: auto;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text-bookset a {
+  margin-right: auto;
+  font-size: 16px;
+  padding: 24px 62px;
+  border: 1px solid #000;
+  margin-top: 35px;
+  text-decoration: none;
+  color: #000;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  margin-left: 54px;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text h3 {
+  font-family: "Segoe-UI-Bold", sans-serif;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-right: auto;
+}
+.books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text a {
+  margin-right: auto;
+  font-size: 16px;
+  padding: 24px 62px;
+  border: 1px solid #000;
+  margin-top: 35px;
+  text-decoration: none;
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .site-wrapper .books-wrapper {
+    margin-top: 90px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper {
+    margin-bottom: 133px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper h1 {
+    font-size: 12px;
+    margin-left: 53px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset {
+    flex-direction: column;
+    margin-top: 44.5px;
+    row-gap: 63.5px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text-bookset {
+    width: 183px;
+    margin-left: 27.5px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text-bookset p {
+    font-size: 11px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text-bookset h3 {
+    font-size: 12px;
+    margin-top: 16px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text-bookset a {
+    font-size: 11px;
+    padding: 17px 55px;
+    margin-top: 16px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text {
+    width: 183px;
+    margin-left: 27.5px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text p {
+    font-size: 11px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text h3 {
+    font-size: 12px;
+    margin-top: 16px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text a {
+    font-size: 11px;
+    padding: 17px 55px;
+    margin-top: 16px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset img {
+    width: 118px;
+    height: 130px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes {
+    flex-direction: column;
+    margin-top: 69px;
+    row-gap: 63.5px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text-bookset {
+    width: 183px;
+    margin-left: 27.5px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text-bookset p {
+    font-size: 11px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text-bookset h3 {
+    font-size: 12px;
+    margin-top: 16px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text-bookset a {
+    font-size: 11px;
+    padding: 17px 55px;
+    margin-top: 16px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text {
+    width: 183px;
+    margin-left: 27.5px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text p {
+    font-size: 11px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text h3 {
+    font-size: 12px;
+    margin-top: 16px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text a {
+    font-size: 11px;
+    padding: 17px 55px;
+    margin-top: 16px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .books-img {
+    width: 110px;
+    height: 166px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .books-img-space {
+    width: 125px;
+    height: 125px;
+    margin-top: -50px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .site-wrapper .books-wrapper {
+    margin-top: 49px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper {
+    margin-bottom: 82px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper h1 {
+    font-size: 6px;
+    margin-left: 33px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset {
+    flex-direction: column;
+    margin-top: 0px;
+    row-gap: 110px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text-bookset {
+    width: 101.5px;
+    margin-left: 32.5px;
+    margin-top: 10px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text-bookset p {
+    font-size: 6px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text-bookset h3 {
+    font-size: 6px;
+    margin-top: 6px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text-bookset a {
+    font-size: 6px;
+    padding: 7.7px 17.3px;
+    margin-top: 2px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text {
+    width: 101.5px;
+    margin-left: 54px;
+    margin-top: 70px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text p {
+    font-size: 6px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text h3 {
+    font-size: 6px;
+    margin-top: 10px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset .book-box .book-box-text a {
+    font-size: 6px;
+    padding: 7.7px 17.3px;
+    margin-top: 6px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes-bookset img {
+    width: 68px;
+    height: 75px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes {
+    flex-direction: column;
+    margin-top: 0px;
+    row-gap: 74px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text-bookset {
+    width: 101.5px;
+    margin-left: 32.5px;
+    margin-top: 10px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text-bookset p {
+    font-size: 6px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text-bookset h3 {
+    font-size: 6px;
+    margin-top: 6px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text-bookset a {
+    font-size: 6px;
+    padding: 7.7px 17.3px;
+    margin-top: 2px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text {
+    width: 101.5px;
+    margin-left: 54px;
+    margin-top: 70px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text p {
+    font-size: 6px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text h3 {
+    font-size: 6px;
+    margin-top: 10px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .book-box .book-box-text a {
+    font-size: 6px;
+    padding: 7.7px 17.3px;
+    margin-top: 6px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .books-img {
+    width: 53px;
+    height: 80px;
+  }
+  .site-wrapper .books-wrapper .books-boxes-wrapper .book-boxes .books-img-space {
+    width: 71px;
+    height: 71px;
+    margin-top: 60px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
