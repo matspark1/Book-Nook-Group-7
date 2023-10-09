@@ -1,0 +1,157 @@
+.feb-hero {
+  background-image: linear-gradient(
+      rgba(88, 124, 131, 0.7),
+      rgba(88, 124, 131, 0.7)
+    ),
+    url(../images/february-favorites-hero.jpg);
+  background-size: 100%;
+  background-position: cover;
+  background-repeat: no-repeat;
+  margin: 140px auto;
+  width: 1464px;
+  height: 463px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-size: 32px;
+    font-family: $SegoeBold;
+    margin-bottom: 58px;
+  }
+  h3 {
+    font-size: 26px;
+    font-family: $SegoeBold;
+    margin-bottom: 58px;
+  }
+  p {
+    font-size: 16px;
+    font-family: $SegoeBold;
+  }
+}
+.feb-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+  .feb-box {
+    display: flex;
+    width: 1582px;
+    margin: auto 0;
+    margin-left: 120px;
+    margin-bottom: 140px;
+    img {
+      width: 250px;
+      height: 380px;
+      object-fit: cover;
+    }
+    .feb-text {
+      margin-left: 35px;
+      h2 {
+        font-size: 26px;
+        font-family: $SegoeBold;
+      }
+      p {
+        font-size: 16px;
+        margin-top: 58px;
+        font-family: $SegoeBold;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .site-wrapper {
+    .feb-hero {
+      margin: 77px auto 43px auto;
+      width: 562px;
+      height: 197px;
+      h1 {
+        font-size: 12px;
+        margin-bottom: 25px;
+      }
+      h3 {
+        font-size: 11px;
+        margin-bottom: 21px;
+      }
+      p {
+        font-size: 8px;
+      }
+    }
+    .feb-wrapper {
+      margin-bottom: 40px;
+      .feb-box {
+        width: 600px;
+        margin-left: 40px;
+        margin-bottom: 81px;
+        img {
+          width: 99px;
+          height: 150px;
+        }
+        .feb-text {
+          margin-left: 35px;
+          margin-top: -16px;
+          h2 {
+            font-size: 12px;
+          }
+          p {
+            font-size: 11px;
+            margin-top: 35px;
+          }
+          span {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .site-wrapper {
+    .feb-hero {
+      margin: 47px auto 43px auto;
+      width: 310px;
+      height: 119px;
+      h1 {
+        font-size: 6px;
+        margin-bottom: 16px;
+      }
+      h3 {
+        font-size: 6px;
+        margin-bottom: 16px;
+      }
+      p {
+        font-size: 6px;
+      }
+    }
+    .feb-wrapper {
+      margin-bottom: 242px;
+      .feb-box {
+        width: 288px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+        img {
+          width: 50px;
+          height: 76px;
+        }
+        .feb-text {
+          margin-left: 19px;
+          margin-top: -2px;
+          h2 {
+            font-size: 6px;
+          }
+          p {
+            font-size: 6px;
+            margin-top: 17px;
+          }
+          span {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

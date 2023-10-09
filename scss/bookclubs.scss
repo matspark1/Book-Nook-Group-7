@@ -1,0 +1,133 @@
+.blogpost-hero-bookclub {
+  background-image: linear-gradient(
+      rgba(88, 124, 131, 0.7),
+      rgba(88, 124, 131, 0.7)
+    ),
+    url(../images/book-club-hero.jpg);
+  background-size: 100%;
+  background-position: cover;
+  background-repeat: no-repeat;
+  margin: 140px auto;
+  width: 1464px;
+  height: 463px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-size: 32px;
+    font-family: $SegoeBold;
+    margin-bottom: 58px;
+  }
+  h3 {
+    font-size: 26px;
+    font-family: $SegoeBold;
+    margin-bottom: 58px;
+  }
+}
+
+.blogpost-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 105px;
+  .blogpost-box {
+    display: flex;
+    width: 1559px;
+    margin: auto 0;
+    margin-left: 90px;
+    margin-bottom: 500px;
+    img {
+      width: 622px;
+      height: 463px;
+      object-fit: cover;
+      border: 1px solid #707070;
+    }
+
+    p {
+      font-size: 16px;
+      margin-left: 39px;
+      font-family: $SegoeRegular;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .site-wrapper {
+    .blogpost-hero-bookclub {
+      margin: 63px auto 83px auto;
+      width: 539px;
+      height: 196px;
+      h1 {
+        font-size: 12px;
+        margin-bottom: 26px;
+      }
+      h3 {
+        font-size: 11px;
+        margin-bottom: 26px;
+      }
+    }
+
+    .blogpost-wrapper {
+      margin-bottom: 0px;
+      .blogpost-box {
+        width: 565px;
+        margin-left: 20px;
+        margin-bottom: 300px;
+        img {
+          width: 260px;
+          height: 205px;
+        }
+
+        p {
+          font-size: 11px;
+          margin-left: 44px;
+        }
+        span{
+            display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 390px) {
+    .site-wrapper {
+      .blogpost-hero-bookclub {
+        margin: 44px auto 33px auto;
+        width: 308px;
+        height: 123px;
+        h1 {
+          font-size: 6px;
+          margin-bottom: 16px;
+        }
+        h3 {
+          font-size: 6px;
+          margin-bottom: 16px;
+        }
+      }
+  
+      .blogpost-wrapper {
+        margin-bottom: 0px;
+        .blogpost-box {
+          width: 295px;
+          margin-left: 0px;
+          margin-bottom: 200px;
+          img {
+            width: 115px;
+            height: 95px;
+          }
+  
+          p {
+            font-size: 6px;
+            margin-left: 24px;
+          }
+          span{
+              display: flex;
+          }
+        }
+      }
+    }
+  }
