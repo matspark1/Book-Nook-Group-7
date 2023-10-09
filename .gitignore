@@ -1,18 +1,18 @@
 # # Logs
-# logs
-# *.log
+ logs
+ *.log
 
 # # Dependency directories
-# node_modules/
+ node_modules/
 
 # #css map
-# css/styles.css.map
+ css/styles.css.map
 
 # # Optional npm cache directory
-# .npm
+ .npm
 
 # #VSC project folder
-# .vscode
+ .vscode
 
 # #Mac Files
-# .DS_Store
+ .DS_Store
