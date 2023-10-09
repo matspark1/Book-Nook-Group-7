@@ -14,108 +14,108 @@
       height: 587px;
       object-fit: cover;
     }
-    .about-box-text{
-        display: flex;
-        flex-direction: column;
-        h1{
-            font-size: 32px;
-            font-family: $SegoeBold;
-            text-align: center;
-            margin-top: -30px;
-        }
-        h3{
-            font-size: 26px;
-            font-family: $SegoeBold;
-            text-align: center;
-            margin-top: 40px;
-        }
-        p {
-          font-family: $SegoeBold;
-          margin-left: 40px;
-          margin-top: 61px;
-          font-size: 16px;
-        }
+    .about-box-text {
+      display: flex;
+      flex-direction: column;
+      h1 {
+        font-size: 32px;
+        font-family: $SegoeBold;
+        text-align: center;
+        margin-top: -30px;
+      }
+      h3 {
+        font-size: 26px;
+        font-family: $SegoeBold;
+        text-align: center;
+        margin-top: 40px;
+      }
+      p {
+        font-family: $SegoeBold;
+        margin-left: 40px;
+        margin-top: 61px;
+        font-size: 16px;
+      }
     }
-  } 
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .site-wrapper {
-        .about-wrapper {
-            margin-bottom: 109px;
-            .about-box {
-              width: 82.6%;
-              margin-top: 76px;
-              
-              img {
-                width: 215px;
-                height: 373px;
-              }
-              .about-box-text{
-                  h1{
-                      font-size: 12px;
-                      margin-top: -10px;
-                      margin-left: 79px;
-                  }
-                  h3{
-                      font-size: 8px;
-                      margin-top: 25px;
-                      margin-left: 79px;
-                  }
-                  p {
-                    font-size: 11px;
-                    margin-left: 79px;
-                    margin-top: 75px;
-                    text-align: center;
-                  }
-                  .first-about-box{
-                    margin-top: 33px;
-                  }
-                  .second-about-box{
-                    margin-top: 10px;
-                  }
-              }
-            } 
+  .site-wrapper {
+    .about-wrapper {
+      margin-bottom: 109px;
+      .about-box {
+        width: 82.6%;
+        margin-top: 76px;
+
+        img {
+          width: 215px;
+          height: 373px;
+        }
+        .about-box-text {
+          h1 {
+            font-size: 12px;
+            margin-top: -10px;
+            margin-left: 79px;
           }
+          h3 {
+            font-size: 8px;
+            margin-top: 25px;
+            margin-left: 79px;
+          }
+          p {
+            font-size: 11px;
+            margin-left: 79px;
+            margin-top: 75px;
+            text-align: center;
+          }
+          .first-about-box {
+            margin-top: 33px;
+          }
+          .second-about-box {
+            margin-top: 10px;
+          }
+        }
+      }
     }
+  }
 }
 
 @media screen and (max-width: 390px) {
-    .site-wrapper {
-        .about-wrapper {
-            margin-bottom: 190px;
-            .about-box {
-              width: 72.8%;
-              margin-top: 159px;
-              img {
-                width: 73px;
-                height: 132px;
-              }
-              .about-box-text{
-                margin-top: -26px;
-                  h1{
-                      font-size: 6px;
-                      margin-left: 16px;
-                      margin-top: -10px;
-                  }
-                  h3{
-                      font-size: 6px;
-                      margin-left: 16px;
-                      margin-top: 0px;
-                  }
-                  p {
-                    font-size: 6px;
-                    margin-left: 16px;
-                    margin-top: 0px;
-                  }
-                  .first-about-box{
-                    margin-top: 0px;
-                  }
-                  .second-about-box{
-                    margin-top: 18px;
-                  }
-              }
-            } 
+  .site-wrapper {
+    .about-wrapper {
+      margin-bottom: 190px;
+      .about-box {
+        width: 72.8%;
+        margin-top: 159px;
+        img {
+          width: 73px;
+          height: 132px;
+        }
+        .about-box-text {
+          margin-top: -26px;
+          h1 {
+            font-size: 6px;
+            margin-left: 16px;
+            margin-top: -10px;
           }
+          h3 {
+            font-size: 6px;
+            margin-left: 16px;
+            margin-top: 0px;
+          }
+          p {
+            font-size: 6px;
+            margin-left: 16px;
+            margin-top: 0px;
+          }
+          .first-about-box {
+            margin-top: 0px;
+          }
+          .second-about-box {
+            margin-top: 18px;
+          }
+        }
+      }
     }
+  }
 }
