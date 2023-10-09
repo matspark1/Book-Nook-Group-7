@@ -1,7 +1,7 @@
 # Book-Nook-Group-7
 
 ## Matthew Sparkman
-### URL: 
+### URL: https://in-info-web4.informatics.iupui.edu/~matspark/N315/Book-Nook-Group-7/
 mobile menu function, MVC model, modal alert functions (jQuery),
 modal (and responsiveness),
 nav menu (and responsiveness),
