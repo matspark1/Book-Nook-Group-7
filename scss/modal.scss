@@ -1,0 +1,109 @@
+#modal-inject {
+  position: fixed;
+  background-color: rgba($color: #181818, $alpha: 0.9);
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: none;
+  justify-content: center;
+  z-index: 99;
+  #modal-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .modal-wrapper2 {
+    display: flex;
+    margin: 0 auto;
+    width: 565px;
+    height: 60vh;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    .x-button {
+      cursor: pointer;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      color: #989898;
+      font-family: $SegoeBold;
+      padding: 3px 10px;
+      right: 0;
+      margin-right: 25px;
+      margin-top: 5px;
+      border-radius: 5px;
+      &:hover {
+        background-color: rgba($color: #bababa, $alpha: 0.45);
+      }
+    }
+    .modal-content {
+      margin-top: 60px;
+      color: #dfdfdf;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      row-gap: 5px;
+      .login-button {
+        width: 420px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #587c83;
+        color: #fff;
+        font-family: $SegoeRegular;
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 26px;
+        cursor: pointer;
+        &:hover {
+          background-color: #405a5f;
+        }
+      }
+      h1 {
+        text-align: center;
+        font-family: $SegoeRegular;
+        font-weight: 100;
+        font-size: 50px;
+        margin-bottom: 120px;
+        margin-top: 50px;
+        width: 300px;
+        color: #000;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #modal-inject {
+    .modal-wrapper2 {
+      width: 360px;
+      height: 575px;
+      .modal-content {
+        .login-button {
+          width: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 390px) {
+    #modal-inject {
+      .modal-wrapper2 {
+        width: 330px;
+        height: 505px;
+        .modal-content {
+          .login-button {
+            width: 270px;
+          }
+        }
+      }
+    }
+  }

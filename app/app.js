@@ -3,7 +3,36 @@ import { getPage } from "./model.js";
 function initListeners() {
   $(window).on("hashchange", getPage);
   getPage();
+  modalDefault();
 }
+
+function modalDefault(){
+  $("#modal-inject .modal-wrapper2 .modal-content .login-button").on(
+    "click",
+    (e) => {
+      e.preventDefault();
+      $("#modal-inject").toggle();
+    }
+  );
+}
+
+function modalToggle() {
+  $(document).on("submit", "#loginForm", (e) => {
+    e.preventDefault();
+    $("#modal-inject").toggle();
+    $("#modal-inject").css("display", "flex");
+  });
+  $(document).on("submit", "#signupForm", (e) => {
+    e.preventDefault();
+    $("#modal-inject").toggle();
+    $("#modal-inject").css("display", "flex");
+  });
+  $(document).on("click", ".close", (e) => {
+    e.preventDefault();
+    $("#modal-inject").toggle();
+  }); 
+}
+
 
 function mobileNav(){
     $(window).on("resize", (e) => {
@@ -38,5 +67,6 @@ function mobileNav(){
 
 $(document).ready(function () {
   initListeners();
+  modalToggle();
   mobileNav();
 });

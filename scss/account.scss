@@ -1,0 +1,125 @@
+.account-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 210px;
+  margin-bottom: 420px;
+  .login-wrapper {
+    h1{
+        font-family: $SegoeRegular;
+        font-weight: 200;
+    }
+    p{
+        margin-bottom: -4px;
+    }
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-top: 43px;
+    .login-input {
+      height: 22px;
+      width: 233px;
+      border: 0;
+      border-bottom: 1px solid #000;
+      color: #000;
+      font-size: 16px;
+      &:focus{
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #000;
+      }
+    }
+    .login {
+      cursor: pointer;
+      position: absolute;
+      background-color: #587C83;
+      border: 0;
+      padding: 12px 62px;
+      color: #fff;
+      margin: 135px 34px;
+    }
+    .signup {
+        cursor: pointer;
+        position: absolute;
+        background-color: #587C83;
+        border: 0;
+        padding: 12px 62px;
+        color: #fff;
+        margin: 260px 34px;
+      }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+    .site-wrapper {
+        .account-wrapper{
+            flex-direction: column;
+            row-gap: 250px;
+            margin-top: 100px;
+            margin-bottom: 220px;
+            .login-wrapper{
+                h1{
+                    font-size: 12px;
+                }
+                p{
+                    font-size: 11px;
+                    margin-bottom: 14px;
+                }
+                form{
+                    .login-input{
+                        font-size: 11px;
+                    }
+                    .login{
+                        font-size: 12px;
+                        padding: 11px 38.5px;
+                        margin: 135px 58px;
+                    }
+                    .signup{
+                        font-size: 12px;
+                        padding: 11px 33.5px;
+                        margin: 260px 58px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .site-wrapper {
+        .account-wrapper{
+            row-gap: 250px;
+            margin-top: 130px;
+            margin-bottom: 310px;
+            .login-wrapper{
+                h1{
+                    font-size: 6px;
+                    margin-bottom: -10px;
+                }
+                p{
+                    font-size: 6px;
+                    margin-bottom: 14px;
+                }
+                form{
+                    row-gap: 53px;
+                    .login-input{
+                        font-size: 6px;
+                    }
+                    .login{
+                        font-size: 6px;
+                        padding: 8px 25.5px;
+                        margin: 155px 80px;
+                    }
+                    .signup{
+                        font-size: 6px;
+                        padding: 8.5px 22.5px;
+                        margin: 300px 80px;
+                    }
+                }
+            }
+        }
+    }
+}
