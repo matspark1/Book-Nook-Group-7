@@ -2,18 +2,18 @@
 
 ## Matthew Sparkman
 ### URL: https://in-info-web4.informatics.iupui.edu/~matspark/N315/Book-Nook-Group-7/
-### mobile menu function 
-### MVC model 
-### modal alert functions
-### modal (and responsiveness)
-### nav menu (and responsiveness)
-### footer (and responsiveness)
-### home page (and responsiveness)
-### about page (and responsiveness)
-### books page (and responsiveness)
-### blog page (and responsiveness)
-### account page (and responsiveness)
-### cart page (and responsiveness)
+### made the mobile menu function 
+### made the MVC model 
+### made the modal alert functions
+### made the modal (and responsiveness)
+### made the nav menu (and responsiveness)
+### made the footer (and responsiveness)
+### made the home page (and responsiveness)
+### made the about page (and responsiveness)
+### made the books page (and responsiveness)
+### made the blog page (and responsiveness)
+### made the account page (and responsiveness)
+### made the cart page (and responsiveness)
 
 ## [Samin Saba](https://github.com/sssabaa)
 ### URL: https://in-info-web4.informatics.iupui.edu/~sssaba/Book-Nook-Group-7-main/#blog
