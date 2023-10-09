@@ -1,0 +1,139 @@
+.cart-wrapper {
+  height: 2150px;
+  .cart-box-wrap {
+    border-bottom: 1px solid #000;
+    width: 100%;
+    height: 566px;
+    display: flex;
+    justify-content: center;
+  }
+  .cart-box {
+    display: flex;
+    width: 100%;
+    margin: auto 135px;
+    img {
+      width: 205px;
+      height: 317px;
+      object-fit: cover;
+    }
+    .cart-desc {
+      margin-left: 22px;
+      margin-top: 10px;
+      h2 {
+        font-family: $SegoeBold;
+        font-size: 16px;
+      }
+      h3 {
+        font-family: $SegoeBold;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+      p {
+        margin-top: -16px;
+        font-size: 16px;
+      }
+      .cart-links {
+        display: flex;
+        margin-top: 43px;
+        p {
+          margin-top: 0;
+        }
+        a {
+          color: #000;
+          margin: 0 7px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .site-wrapper {
+    .cart-wrapper {
+      height: 850px;
+      .cart-box-wrap {
+        height: 196px;
+      }
+      .cart-box {
+        margin: auto 64px;
+        img {
+          width: 69px;
+          height: 106px;
+        }
+        .cart-desc {
+          margin-top: 0px;
+          margin-left: 32px;
+          h2 {
+            font-size: 12px;
+          }
+          h3 {
+            font-size: 12px;
+            margin-top: -3px;
+          }
+          p {
+            margin-top: -11px;
+            font-size: 12px;
+          }
+          .cart-links {
+            margin-top: -8px;
+            p {
+              font-size: 11px;
+              margin-top: 0px;
+            }
+            a {
+              font-size: 11px;
+              margin: 0 21px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .site-wrapper {
+    .cart-wrapper {
+      height: 924px;
+      .cart-box-wrap {
+        height: 138px;
+      }
+      .cart-box {
+        margin: auto 22px;
+        img {
+          width: 51px;
+          height: 77px;
+        }
+        .cart-desc {
+          align-items: center;
+          justify-content: center;
+          
+          margin-left: 16px;
+          margin-top: 6px;
+          h2 {
+            font-size: 6px;
+          }
+          h3 {
+            font-size: 6px;
+            margin-top: -8px;
+          }
+          p {
+            margin-top: -8px;
+            font-size: 6px;
+          }
+          .cart-links {
+            margin-top: 6px;
+            p {
+              font-size: 6px;
+              margin-top: 0px;
+            }
+            a {
+              font-size: 6px;
+              margin: 0 4px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

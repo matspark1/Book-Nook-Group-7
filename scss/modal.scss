@@ -60,7 +60,7 @@
         font-family: $SegoeRegular;
         text-decoration: none;
         font-size: 18px;
-        margin-top: 26px;
+        margin-top: 96px;
         cursor: pointer;
         &:hover {
           background-color: #405a5f;
@@ -88,6 +88,7 @@
       .modal-content {
         .login-button {
           width: 300px;
+          margin-top: 26px;
         }
       }
     }
